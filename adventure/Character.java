@@ -284,6 +284,9 @@ public class Character {
                 if (trust >= 10) {
                     return name
                             + " looks at you with a slight smile, a soft gaze, and nodded their head with confidence towards you\nThey had faith in your words and trusted you. Surely you wouldn't lead them wrong now in this dire time\n'You got my back right?'\n";
+                } else if (trust >= 7) {
+                    return name
+                            + " gives your a curt nod, they are aware of you and are responsive\nTheir eyes are gentle, but there are some trauma still left within their eyes\nBeing left in such a desperate time with a god they could have faith in on their side leaves them courageous\n";
                 } else if (trust >= 5) {
                     return name
                             + " could care less about answering this\nBut exasperatedly tells you anyways that it is enough for them to hear you out so they can get out\n'A god doesn't actually care about those they watch over, they all have something they are trying to gain, something they want to take'\n";
