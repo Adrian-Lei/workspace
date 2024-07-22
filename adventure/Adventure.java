@@ -365,7 +365,7 @@ public class Adventure {
     System.out.println(
         "\n\n\n\nSAFE START ROOTKIT 1.1.7-----------------------------\n-----------------------------------------------------\nPossible Endings: 4");
     System.out.print(
-        "\nYou have entered the dungeon of empty dreams. \nNot in the concept that the dreams were destroyed or unrealistic, \nbut as in within this realm they cannot exist while being stuck here. \nFight the nightmares that plague the mind of the denizens trapped here, help these creatures escape. \nEarn their trust that you aren't a parasite in their mind. \n\nAre you ready to venture forth?\n\n> ");
+        "\nYou have entered the dungeon of empty dreams. \nNot in the concept that the dreams were destroyed or unrealistic, \nbut as in within this realm they cannot exist while being stuck here. \nFight the nightmares that plague the mind of the denizens trapped here, help these creatures escape. \nEarn their trust that you aren't a parasite in their mind. \n\nAre you ready to venture forth to the 8th floor of freedom?\n\n> ");
     command = input.nextLine().toLowerCase();
     if (valid.get(simple.get(command))) {
       spacer();
